@@ -8,4 +8,4 @@ plotly
 joblib
 streamlit-option-menu
 streamlit-lottie
-st-aggrid
+
