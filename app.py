@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import joblib
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -10,7 +9,8 @@ from ucimlrepo import fetch_ucirepo
 # from st_aggrid import AgGrid
 
 # Load model
-model = joblib.load("heart_disease_model.pkl")
+with open("heart_disease_model.pkl", "rb") as f:
+    model = cloudpickle.load(f)
 
 # Fetch dataset for analysis page
 @st.cache_data
