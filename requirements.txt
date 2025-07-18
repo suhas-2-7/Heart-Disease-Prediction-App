@@ -8,4 +8,5 @@ plotly
 joblib
 streamlit-option-menu
 streamlit-lottie
+ucimlrepo
 
