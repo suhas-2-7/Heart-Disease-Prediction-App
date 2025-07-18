@@ -7,7 +7,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from sklearn.ensemble import RandomForestClassifier
 from ucimlrepo import fetch_ucirepo
-from st_aggrid import AgGrid
+# from st_aggrid import AgGrid
 
 # Load model
 model = joblib.load("heart_disease_model.pkl")
