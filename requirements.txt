@@ -5,8 +5,9 @@ scikit-learn
 matplotlib
 seaborn
 plotly
-joblib
 streamlit-option-menu
 streamlit-lottie
 ucimlrepo
+cloudpickle
+
 
