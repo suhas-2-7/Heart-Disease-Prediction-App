@@ -7,6 +7,7 @@ import plotly.graph_objects as go
 from sklearn.ensemble import RandomForestClassifier
 from ucimlrepo import fetch_ucirepo
 # from st_aggrid import AgGrid
+import cloudpickle
 
 # Load model
 with open("heart_disease_model.pkl", "rb") as f:
